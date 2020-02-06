@@ -32,7 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:inputType="textPersonName"
-        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:hint="@string/hint_name" />
 
@@ -41,20 +42,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:textSize="24dp"
         android:inputType="textPassword"
-        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:hint="@string/hint_pass"/>
 
     <Button
         android:id="@+id/buttonCreateOrder"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:layout_margin="8dp"
+        android:layout_height="60dp"
+        android:textSize="34sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/white"
         android:background="@color/brown_dark"
+        android:onClick="onClickCreateOrder"
         android:text="@string/button_create_order" />
 
 </LinearLayout>
