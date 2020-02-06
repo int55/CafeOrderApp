@@ -6,7 +6,7 @@
     <string name="hint_pass">Введите пароль..</string>
     <string name="button_create_order">СОЗДАТЬ ЗАКАЗ</string>
     <string name="warning_toast">Необходимо заполнить все поля</string>
-    <string name="hello_userXML">Привет, клиент. Что вы хотите?</string>
+    <string name="hello_userXML">Привет, клиент. Что будете заказывать?</string>
     <string name="radio_button_Tea">Чай</string>
     <string name="radio_button_Coffee">Кофе</string>
     <string name="additoinsXML">Что добавить в ваш чай?</string>

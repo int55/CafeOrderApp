@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:inputType="textPersonName"
-        android:textSize="24dp"
+        android:textSize="16dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:hint="@string/hint_name" />
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:textSize="24dp"
+        android:textSize="16dp"
         android:inputType="textPassword"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
