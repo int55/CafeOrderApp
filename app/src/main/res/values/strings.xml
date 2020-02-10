@@ -6,15 +6,22 @@
     <string name="hint_pass">Введите пароль..</string>
     <string name="button_create_order">СОЗДАТЬ ЗАКАЗ</string>
     <string name="warning_toast">Необходимо заполнить все поля</string>
-    <string name="hello_userXML">Привет, клиент. Что будете заказывать?</string>
+    <string name="hello_userXML">Привет, %s! Что будете заказывать?</string>
     <string name="radio_button_Tea">Чай</string>
     <string name="radio_button_Coffee">Кофе</string>
-    <string name="additoinsXML">Что добавить в ваш чай?</string>
+    <string name="additionsXML">Что добавить в ваш напиток?</string>
     <string name="milk_check_box">Молоко</string>
     <string name="sugar_check_box">Сахар</string>
     <string name="lemon_check_box">Лимон</string>
     <string name="choose_drink">Выберите вид напитка</string>
     <string name="button_send_order">СДЕЛАТЬ ЗАКАЗ</string>
+
+    <string name="default_name">клиент</string>
+    <string name="default_password">пароль</string>
+    <string name="order_str">Имя: %s\nПароль: %s\nНапиток: %s\nВид напитка: %s\n</string>
+    <string name="need_additions">Необходимые добавки: </string>
+    <string name="additions_str_not">отсутствуют</string>
+    <string name="detail_order_text">ДЕТАЛИ ЗАКАЗА</string>
 
     <string-array name="options_of_coffee">
         <item>Американо</item>
