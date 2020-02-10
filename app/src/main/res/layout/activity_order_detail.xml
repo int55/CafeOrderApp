@@ -11,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/detail_order_text"
-        android:layout_margin="16dp"
+        android:layout_margin="24dp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintTop_toBottomOf="@+id/textOrderHeadXML"
         tools:layout_editor_absoluteX="0dp" />
 
