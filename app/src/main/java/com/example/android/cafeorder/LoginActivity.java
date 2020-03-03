@@ -14,6 +14,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText editTextName;
     private EditText editTextPass;
+    private long backPressedTime;
+    private Toast toastBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,4 +42,25 @@ public class LoginActivity extends AppCompatActivity {
                 Toast.makeText(this, R.string.warning_toast, Toast.LENGTH_SHORT).show();
             }
     }
+
+    //СИСТЕМНАЯ КНОПКА "Назад". ПРИ ДВОЙНОМ НАЖАТИИ ЗАКРЫВАЕТ ПРИЛОЖЕНИЕ
+    @Override
+    public void onBackPressed() {
+
+          //Системная кнопка "Назад". Двойное нажатие -закрытие приложения
+        if (backPressedTime + 2000 > System.currentTimeMillis()){
+            toastBack.cancel(); //закрыть Toast
+
+            //закрываем игру
+            super.onBackPressed();
+            return;
+        }else {
+
+            //Системная кнопка "Назад". Первое нажатие, всплыв подсказка
+            toastBack = Toast.makeText(getBaseContext(),"Нажмите еще раз чтобы выйти", Toast.LENGTH_SHORT);
+            toastBack.show(); // показать Toast
+            }
+        backPressedTime = System.currentTimeMillis(); // получаем текущее время в мл/сек
+    }
+
 }
