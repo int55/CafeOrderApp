@@ -152,7 +152,7 @@
         android:layout_marginLeft="16dp"
         android:textSize="36sp"
         android:textColor="@color/white"
-        android:background="@color/brown_dark"
+        android:background="@drawable/btn_style_press_and_notpress"
         android:onClick="onClickSendOrder"
         app:layout_constraintTop_toBottomOf="@id/spinnerCoffee"
         android:text="@string/button_send_order"/>

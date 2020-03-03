@@ -31,22 +31,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:hint="@string/hint_name"
         android:inputType="textPersonName"
-        android:textSize="16dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:hint="@string/hint_name" />
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editPassXML"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:textSize="16dp"
+        android:hint="@string/hint_pass"
         android:inputType="textPassword"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:hint="@string/hint_pass"/>
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/buttonCreateOrder"
@@ -57,7 +57,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:textColor="@color/white"
-        android:background="@color/brown_dark"
+        android:background="@drawable/btn_style_press_and_notpress"
         android:onClick="onClickCreateOrder"
         android:text="@string/button_create_order" />
 
